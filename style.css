@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+#bar {
+    display: flex;
+    gap: 3em;
+    background-color: #00a86b;
+    margin: 0;
+    align-items: flex-end;
+    padding-top: 1em;
+    padding-right: 1em;
+    justify-content: right;
+    color: white;
+    font-size: 20px;
+}
+
+#bar a {
+    text-decoration: none;
+    color: white;
+}
+
+#headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+    font-size: 3em;
+    background-color: #00a86b;
+    color: white;
+    padding-bottom: 8rem;
+}
+
+#skils {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#skils ul {
+   display: flex;
+   gap: 2rem;
+   justify-content: center;
+   align-items: center;
+    padding-left: 1rem;
+}
+
+#story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#story p {
+    margin: 3rem;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-container {
+    display: flex;
+    gap: 2rem;
+}
+
+#insta img{
+    width: 5rem;
+}
+
+#insta {
+    display: flex;
+    gap: 1rem;
+}
+
+#twitter {
+    display: flex;
+    gap: 1rem;
+}
+
+#twitter img {
+    width: 5rem;
+}
+
+#yt {
+    display: flex;
+    gap: 1rem;
+}
+
+#insta a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#twitter a {
+    text-decoration: none;
+    color: black;
+}
+
+#yt a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 868px) {
+    #social-container {
+        flex-direction: column;
+    }
+    
+  }
+
+  @media only screen and (max-width: 413px) {
+    #skils ul {
+        flex-direction: column;
+    }
+  }

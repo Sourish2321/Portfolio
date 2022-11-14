@@ -127,3 +127,52 @@ ul {
         flex-direction: column;
     }
   }
+
+#rps {
+    object-fit: cover;
+}
+
+.a a  {
+    text-decoration: none;
+    color: white;
+}
+
+.a button {
+    background-color: #00a86b;
+    border: none;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+#projects {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 921px){
+    #projects {
+        flex-direction: column  ;
+    }
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#github a {
+    color: black;
+    text-decoration: none;
+}

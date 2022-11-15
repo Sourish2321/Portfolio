@@ -156,6 +156,14 @@ ul {
     #projects {
         flex-direction: column  ;
     }
+    #rps {
+        width: 350px;
+        height: 300px;
+    }
+    #baloji {
+        width: 350px;
+        height: 300px;
+    }
 }
 
 .a {

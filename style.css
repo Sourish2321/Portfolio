@@ -16,6 +16,16 @@ body {
     font-size: 20px;
 }
 
+.gamer {
+    display: inline-block;
+    font-size: smaller;
+    /* Here you can change angle of gardient also as 45deg here */
+    background: linear-gradient(45deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Press Start 2P", system-ui;
+}
+
 #bar a {
     text-decoration: none;
     color: white;
@@ -46,10 +56,10 @@ ul {
 }
 
 #skils ul {
-   display: flex;
-   gap: 2rem;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
     padding-left: 1rem;
 }
 
@@ -76,7 +86,7 @@ ul {
     gap: 2rem;
 }
 
-#insta img{
+#insta img {
     width: 5rem;
 }
 
@@ -115,72 +125,85 @@ ul {
     color: black;
 }
 
-@media only screen and (max-width: 868px) {
-    #social-container {
-        flex-direction: column;
-    }
-    
-  }
-
-  @media only screen and (max-width: 413px) {
-    #skils ul {
-        flex-direction: column;
-    }
-  }
-
-#rps {
-    object-fit: cover;
-}
-
-.a a  {
-    text-decoration: none;
-    color: white;
-}
-
-.a button {
-    background-color: #00a86b;
-    border: none;
-    padding: 1rem;
-    border-radius: 5rem;
-}
-
-#projects {
+#yt_2 {
     display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-}
+    gap: 1rem;
 
-@media only screen and (max-width: 921px){
-    #projects {
-        flex-direction: column  ;
+
+    #yt_2 a {
+        text-decoration: none;
+        color: black;
     }
+
+
+    @media only screen and (max-width: 868px) {
+        #social-container {
+            flex-direction: column;
+        }
+
+    }
+
+    @media only screen and (max-width: 413px) {
+        #skils ul {
+            flex-direction: column;
+        }
+    }
+
     #rps {
-        width: 350px;
-        height: 300px;
+        object-fit: cover;
     }
-    #baloji {
-        width: 350px;
-        height: 300px;
+
+    .a a {
+        text-decoration: none;
+        color: white;
     }
-}
 
-.a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    .a button {
+        background-color: #00a86b;
+        border: none;
+        padding: 1rem;
+        border-radius: 5rem;
+    }
 
-#github {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5rem;
-}
+    #projects {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
 
-#github a {
-    color: black;
-    text-decoration: none;
-}
+    @media only screen and (max-width: 921px) {
+        #projects {
+            flex-direction: column;
+        }
+
+        #rps {
+            width: 350px;
+            height: 300px;
+        }
+
+        #baloji {
+            width: 350px;
+            height: 300px;
+        }
+    }
+
+    .a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #github {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    #github a {
+        color: black;
+        text-decoration: none;
+    }
